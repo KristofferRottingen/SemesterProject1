@@ -1,0 +1,75 @@
+main {
+  margin: 0;
+  min-height: 80vh;
+}
+
+/* Exhibition Spaces */
+
+section,
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.cos {
+  margin: 60px;
+  max-width: 100%;
+  background-color: #35415f;
+  color: white;
+}
+
+.evo {
+  margin: 60px;
+  max-width: 100%;
+  background-color: #ce9a54;
+  color: white;
+}
+
+.bio-med {
+  margin: 60px;
+  max-width: 100%;
+  background-color: #1d707b;
+  color: white;
+}
+
+.rob-ai {
+  margin: 60px;
+  max-width: 100%;
+  background-color: #80638d;
+  color: white;
+}
+
+.eco {
+  margin: 60px;
+  max-width: 100%;
+  background-color: #3d6e00;
+  color: white;
+}
+
+img {
+  max-width: 300px;
+  float: left;
+  margin-right: 40px;
+}
+
+.cos p,
+.bio-med p,
+.eco p {
+  font-size: medium;
+  text-align: left;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 55.5px 20px;
+}
+
+.evo p,
+.rob-ai p {
+  font-size: medium;
+  text-align: left;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 70.5px 20px;
+}
+
+/* Exhibition Spaces */
