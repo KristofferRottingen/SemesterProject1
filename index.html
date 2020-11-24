@@ -12,26 +12,28 @@
     </head>
     <body>
         <header>
-            <div class="nav">
-                <a href="index.html"><img class="logo" src="images/csm-logo.png" alt="CSM Logo"></a>
-                <nav class="top-navigation">
-                    <ul class="nav_links">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="explore.html">EXPLORE</a></li>
-                        <li><a href="get-involved.html">GET INVOLVED</a></li>
-                        <li><a href="visit-us.html">VISIT US</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <a href="index.html"><img class="logo" src="images/csm-logo.png" alt="CSM Logo"></a>
+            <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="current">HOME</a></li>
+                    <li><a href="explore.html">EXPLORE</a></li>
+                    <li><a href="get-involved.html">GET INVOLVED</a></li>
+                    <li><a class="button" href="visit-us.html">VISIT US</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
             <div class="frontpage">
-                <h1>EXPLORE TOGHETER</h1>
-                <p class="info">Come join us at the Community Science Museum where we’re committed to making science accessible to all. </p>
-                <p class="info">The aim of our museum is to create a space where everyone can experience the wonders of our discoveries. </p>
-                <p class="cta">VISIT US</p>
+                <div class="front-text">
+                    <h1>EXPLORE TOGHETER</h1>
+                    <p class="info">Come join us at the Community Science Museum where we are committed to making science accessible to all. </p>
+                    <p class="info">The aim of our museum is to create a space where everyone can experience the wonders of our discoveries. </p>
+                    <a href="visit-us.html">VISIT US</a>
+                </div>
             </div>
-            <section>
+            <section class="exh-spaces">
                 <h1>EXHIBITION SPCACES</h1>
                 <div class="cos">
                     <img src="images/Cosmolgy-1.jpg" alt="img representing the Cosmolgy exhibition">
@@ -76,5 +78,22 @@
                 </div>
             </section>
         </main>
+        <footer>
+            <div class="fot-items">
+                <img src="images/csm-logo.png" alt="CSM logo">
+            </div>
+            <div class="fot-items">
+                <h3>LINKS</h3>
+                <a href="explore.html">Explore</a>
+                <a href="get-involved.html">Get Involved</a>
+                <a href="visit-us.html">Visit</a>
+                <a href="visit-us.html">Accessibility</a>
+                <a href="visit-us.html">Shop</a>
+            </div>
+            <div class="fot-items">
+                <h3>HOURS</h3>
+                
+            </div>
+        </footer>
     </body>
 </html>
