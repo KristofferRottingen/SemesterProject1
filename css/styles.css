@@ -77,8 +77,11 @@ img {
 
 /* News section */
 .heading-news {
+  padding-top: 50px;
+  margin-bottom: 0;
   color: white;
   background-color: #a2b48b;
+  text-shadow: 2px 0px 8px #000000;
 }
 
 .news {
