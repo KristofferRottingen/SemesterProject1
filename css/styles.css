@@ -17,7 +17,7 @@ header {
 
 .logo {
   padding-top: 10px;
-  padding-left: 30px;
+  padding-left: 40px;
   max-width: 90px;
 }
 
@@ -219,6 +219,11 @@ h1 {
   font-size: 2rem;
 }
 
+.news-section {
+  background-color: #a2b48b;
+  padding-bottom: 60px;
+}
+
 .heading-news {
   padding-top: 50px;
   margin-bottom: 0;
@@ -234,14 +239,12 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: #a2b48b;
-  padding-bottom: 60px;
 }
 
 .item {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 300px;
+  max-width: 350px;
   margin: 50px;
 
   -webkit-box-shadow: 0px 0px 10px 2px #000000;
@@ -249,6 +252,7 @@ h1 {
 }
 
 .item img {
+  min-width: 350px;
   padding-bottom: 10px;
 }
 
