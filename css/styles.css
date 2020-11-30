@@ -79,6 +79,7 @@ nav a:hover {
 }
 
 .button {
+  margin-right: 20px;
   color: white;
   background-color: var(--green);
 }
@@ -389,7 +390,7 @@ footer {
 
 .explore-img {
   background-image: url("../images/Explore.jpg");
-  height: 90vh;
+  height: 80vh;
   padding: 0;
   justify-content: center;
   background-size: cover;
@@ -398,6 +399,7 @@ footer {
 }
 
 .exp-headings h1 {
+  margin-top: 0px;
   padding: 20px 0px;
   color: #ffffff;
   font-family: var(--font);
@@ -407,7 +409,7 @@ footer {
 }
 
 .exp-headings .kids {
-  background-color: #a2b48b;
+  background-color: var(--light-green);
 }
 
 .exp-headings .teachers {
@@ -425,3 +427,105 @@ footer {
   line-height: 30px;
   font-size: 14px;
 }
+
+.exp-headings .end {
+  margin-bottom: 20px;
+}
+/* Explore site */
+
+/* Get Involved site */
+.get-involved-img {
+  background-image: url("../images/get-involved.jpg");
+  height: 80vh;
+  padding: 0;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.exp-headings .support {
+  background-color: var(--light-blue);
+}
+
+.exp-headings .volunteer {
+  background-color: var(--light-sand);
+}
+
+.exp-headings .internship {
+  background-color: var(--light-green);
+}
+/* Get Involved site */
+
+/* Visit us site */
+.visit-img {
+  background-image: url("../images/get-involved.jpg");
+  height: 80vh;
+  padding: 0;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.info-visit {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.text-info {
+  font-family: var(--font);
+  max-width: 300px;
+  margin: 50px 20px;
+  line-height: 30px;
+}
+
+.text-info h3 {
+  padding: 0;
+}
+
+.visit-section {
+  background-color: #fafafa;
+  padding-bottom: 60px;
+}
+
+.visit {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.visit-item {
+  background-color: white;
+  font-family: var(--font);
+  max-width: 300px;
+  margin: 50px;
+
+  -webkit-box-shadow: 0px 0px 10px 2px #000000;
+  box-shadow: 0px 0px 10px 2px #000000;
+}
+
+.visit-item img {
+  min-width: 300px;
+  padding-bottom: 10px;
+}
+
+.visit-item h3 {
+  font-size: 17px;
+}
+
+.visit-item p {
+  padding: 0px 10px;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+/* Visit us site */
