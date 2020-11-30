@@ -213,7 +213,7 @@ img {
   font-size: medium;
   text-align: left;
   line-height: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   padding: 55.5px 20px;
 }
 
@@ -222,7 +222,7 @@ img {
   font-size: medium;
   text-align: left;
   line-height: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   padding: 70.5px 20px;
 }
 
@@ -230,13 +230,13 @@ img {
 
 /* News section */
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   text-align: center;
   font-size: 2rem;
 }
 
 .news-section {
-  background-color: #a2b48b;
+  background-color: var(--light-green);
   padding-bottom: 60px;
 }
 
@@ -244,7 +244,7 @@ h1 {
   padding-top: 50px;
   margin-bottom: 0;
   color: white;
-  background-color: #a2b48b;
+  background-color: var(--light-green);
   text-shadow: 2px 0px 8px #000000;
 }
 
@@ -259,7 +259,7 @@ h1 {
 
 .item {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   max-width: 350px;
   margin: 50px;
 
@@ -295,7 +295,7 @@ footer {
 }
 
 .inner-footer {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   width: 95%;
   margin: auto;
   padding: 30px 30px 5px 30px;
@@ -324,7 +324,7 @@ footer {
 .border {
   height: 5px;
   width: 60px;
-  background-color: #3d6e00;
+  background-color: var(--green);
 }
 
 .fot-items ul {
@@ -342,7 +342,7 @@ footer {
 }
 
 .fot-items ul a:hover {
-  color: #3d6e00;
+  color: var(--green);
   font-weight: bold;
 }
 
@@ -362,7 +362,7 @@ footer {
 .footer-bottom {
   padding: 10px;
   background-color: #1d707b;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   color: #ffffff;
 }
 
@@ -382,9 +382,9 @@ footer {
 /* Explore site */
 
 .explore-main {
-  padding: 0;
-  margin-left: 125px;
-  margin-right: 125px;
+  background-color: #fafafa;
+  padding-bottom: 35px;
+  margin: 0px 125px 40px 125px;
 }
 
 .explore-img {
@@ -400,7 +400,7 @@ footer {
 .exp-headings h1 {
   padding: 20px 0px;
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   text-align: center;
   font-size: 2rem;
   text-shadow: 2px 0px 8px #000000;
@@ -408,4 +408,20 @@ footer {
 
 .exp-headings .kids {
   background-color: #a2b48b;
+}
+
+.exp-headings .teachers {
+  background-color: var(--light-purple);
+}
+
+.exp-headings .research {
+  background-color: var(--light-science);
+}
+
+.exp-headings p {
+  padding: 10px 0px;
+  margin: 0px 40px;
+  font-family: var(--font);
+  line-height: 30px;
+  font-size: 14px;
 }
