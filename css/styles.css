@@ -180,7 +180,7 @@ nav a:hover {
   color: white;
 }
 
-img {
+.exh-spaces img {
   max-width: 300px;
   float: left;
   margin-right: 40px;
@@ -240,14 +240,14 @@ h1 {
   background-color: white;
   font-family: var(--font);
   max-width: 350px;
-  margin: 50px;
+  margin: 10px;
 
   -webkit-box-shadow: 0px 0px 10px 2px #000000;
   box-shadow: 0px 0px 10px 2px #000000;
 }
 
 .item img {
-  min-width: 350px;
+  max-width: 350px;
   padding-bottom: 10px;
 }
 
@@ -478,10 +478,16 @@ footer {
   background-color: white;
   font-family: var(--font);
   max-width: 300px;
-  margin: 50px 20px;
+  margin: 10px;
 
   -webkit-box-shadow: 0px 0px 10px 2px #000000;
   box-shadow: 0px 0px 10px 2px #000000;
+}
+
+.info-visit i {
+  padding-bottom: 10px;
+  list-style: none;
+  letter-spacing: 0.5px;
 }
 
 .visit-item img {
