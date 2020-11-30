@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+:root {
+  --green: #3d6e00;
+  --light-green: #a2b48b;
+  --drak-blue: #35415f;
+  --light-blue: #94a4cb;
+  --sand: #ce9a54;
+  --light-sand: #e2be8f;
+  --science: #1d707b;
+  --light-science: #90c1c7;
+  --purple: #80638d;
+  --light-purple: #c7add3;
+  --font: Arial, Helvetica, sans-serif;
+}
+
 body {
   margin: 0;
 }
@@ -35,7 +51,7 @@ nav li {
 
 nav a {
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   text-decoration: none;
   color: #000000;
   padding: 10px;
@@ -52,7 +68,7 @@ nav a:hover {
 
 .hamburger-label {
   float: right;
-  color: #3d6e00;
+  color: var(--green);
   padding: 10px;
   font-size: 1.5rem;
   display: block;
@@ -64,7 +80,7 @@ nav a:hover {
 
 .button {
   color: white;
-  background-color: #3d6e00;
+  background-color: var(--green);
 }
 
 @media (min-width: 750px) {
@@ -104,9 +120,9 @@ nav a:hover {
 
 .front-text {
   max-width: 400px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   color: white;
-  background-color: #3d6e00;
+  background-color: var(--green);
   display: flex;
   flex-direction: column;
   float: left;
@@ -127,7 +143,7 @@ nav a:hover {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
-  color: #3d6e00;
+  color: var(--green);
   background-color: white;
   padding: 15px 0px;
   margin: 10px 140px;
@@ -145,7 +161,7 @@ nav a:hover {
 
 .exh-spaces h1 {
   padding-top: 40px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
   text-align: center;
   font-size: 2rem;
 }
@@ -153,35 +169,35 @@ nav a:hover {
 .cos {
   margin: 60px;
   max-width: 100%;
-  background-color: #35415f;
+  background-color: var(--drak-blue);
   color: white;
 }
 
 .evo {
   margin: 60px;
   max-width: 100%;
-  background-color: #ce9a54;
+  background-color: var(--sand);
   color: white;
 }
 
 .bio-med {
   margin: 60px;
   max-width: 100%;
-  background-color: #1d707b;
+  background-color: var(--science);
   color: white;
 }
 
 .rob-ai {
   margin: 60px;
   max-width: 100%;
-  background-color: #80638d;
+  background-color: var(--purple);
   color: white;
 }
 
 .eco {
   margin: 60px;
   max-width: 100%;
-  background-color: #3d6e00;
+  background-color: var(--green);
   color: white;
 }
 
@@ -362,3 +378,34 @@ footer {
   }
 }
 /* Footer */
+
+/* Explore site */
+
+.explore-main {
+  padding: 0;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.explore-img {
+  background-image: url("../images/Explore.jpg");
+  height: 90vh;
+  padding: 0;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.exp-headings h1 {
+  padding: 20px 0px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 2px 0px 8px #000000;
+}
+
+.exp-headings .kids {
+  background-color: #a2b48b;
+}
