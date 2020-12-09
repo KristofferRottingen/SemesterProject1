@@ -114,6 +114,13 @@ nav a:hover {
   text-align: left;
 }
 
+h2 {
+  font-family: var(--font);
+  text-align: center;
+  font-size: 2rem;
+  padding: 20px 0px;
+}
+
 .front-text .info {
   line-height: 30px;
 }
