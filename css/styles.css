@@ -320,29 +320,29 @@ footer {
   letter-spacing: 0.5px;
 }
 
-.fot-items ul a {
+.fot-items a {
   text-decoration: none;
   outline: none;
   color: #000000;
   transition: 0.3s;
 }
 
-.fot-items ul a:hover {
+.fot-items a :hover {
   color: var(--green);
   font-weight: bold;
 }
 
-.fot-items ul li {
+.fot-items p {
   margin: 10px 0;
   height: 25px;
 }
 
-.fot-items li i {
+.fot-items p i {
   margin-right: 20px;
 }
 
 .fot-items img {
-  max-width: 230px;
+  max-width: 220px;
 }
 
 .footer-bottom {
