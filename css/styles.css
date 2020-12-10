@@ -532,6 +532,7 @@ footer {
 
   .text-info {
     font-size: 14px;
+    margin-top: auto;
   }
 
   .visit-img {
@@ -546,6 +547,10 @@ footer {
   .visit {
     flex-direction: column;
     align-items: center;
+  }
+
+  .get-involved-img {
+    height: 25vh;
   }
 }
 
