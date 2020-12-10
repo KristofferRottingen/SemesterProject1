@@ -526,11 +526,30 @@ footer {
   }
 
   .exh-spaces p {
-    padding-top: 20px;
     padding-bottom: 20px;
   }
 
   .cos {
+    max-width: 300px;
+    margin-left: 175px;
+  }
+
+  .evo {
+    max-width: 300px;
+    margin-left: 175px;
+  }
+
+  .bio-med {
+    max-width: 300px;
+    margin-left: 175px;
+  }
+
+  .rob-ai {
+    max-width: 300px;
+    margin-left: 175px;
+  }
+
+  .eco {
     max-width: 300px;
     margin-left: 175px;
   }
