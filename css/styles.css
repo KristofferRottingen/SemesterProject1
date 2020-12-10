@@ -517,6 +517,28 @@ footer {
 /* media tablet */
 
 @media only screen and (min-width: 650px) and (max-width: 1100px) {
+  /* Homepage */
+  nav {
+    display: block;
+    float: right;
+  }
+
+  .hamburger-label {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    padding: 20px 35px;
+  }
+
   .frontpage {
     height: 55vh;
   }
@@ -559,7 +581,9 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  /* Homepage */
 
+  /* get-involved, explore & visit us, site */
   .explore-main {
     margin: 0px 100px;
   }
@@ -577,6 +601,14 @@ footer {
     height: 25vh;
   }
 
+  .get-involved-img {
+    height: 25vh;
+  }
+
+  .explore-img {
+    height: 25vh;
+  }
+
   .info-visit {
     flex-direction: column;
     align-items: center;
@@ -587,42 +619,16 @@ footer {
     align-items: center;
   }
 
-  .get-involved-img {
-    height: 25vh;
-  }
-
-  .explore-img {
-    height: 25vh;
-  }
-}
-
-@media (max-width: 1085px) {
   .fot-items {
     width: 50%;
   }
+  /* get-involved, explore & visit us, site */
+}
+
+@media (max-width: 1085px) {
 }
 
 @media (min-width: 750px) {
-  nav {
-    display: block;
-    float: right;
-  }
-
-  .hamburger-label {
-    display: none;
-  }
-
-  nav ul {
-    display: flex;
-  }
-
-  nav li {
-    display: inline-block;
-  }
-
-  nav a {
-    padding: 20px 35px;
-  }
 }
 
 @media (max-width: 600px) {
