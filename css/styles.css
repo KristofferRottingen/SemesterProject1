@@ -526,6 +526,14 @@ footer {
     margin: 0px 100px;
   }
 
+  .explore-main h1 {
+    font-size: 1.05rem;
+  }
+
+  .visit-img {
+    height: 25vh;
+  }
+
   .info-visit {
     flex-direction: column;
     align-items: center;
