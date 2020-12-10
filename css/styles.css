@@ -552,6 +552,10 @@ footer {
   .get-involved-img {
     height: 25vh;
   }
+
+  .explore-img {
+    height: 25vh;
+  }
 }
 
 @media (max-width: 1085px) {
