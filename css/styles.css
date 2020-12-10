@@ -525,8 +525,8 @@ footer {
     margin-left: 100px;
   }
 
-  .exh-spaces {
-    justify-content: center;
+  .exh-spaces p {
+    padding-bottom: 20px;
   }
 
   .cos {
