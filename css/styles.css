@@ -527,7 +527,11 @@ footer {
   }
 
   .explore-main h1 {
-    font-size: 1.05 rem;
+    font-size: 1.05rem;
+  }
+
+  .text-info {
+    font-size: 14px;
   }
 
   .visit-img {
