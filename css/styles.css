@@ -647,7 +647,7 @@ footer {
   }
 
   .spaces img {
-    max-width: 292px;
+    max-width: inherit;
     padding-bottom: 10px;
   }
 
