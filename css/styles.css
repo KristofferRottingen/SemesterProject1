@@ -647,7 +647,8 @@ footer {
   }
 
   .spaces img {
-    max-width: ;
+    max-width: 292px;
+    padding-bottom: 10px;
   }
 
   .news {
