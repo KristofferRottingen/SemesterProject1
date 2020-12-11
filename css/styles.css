@@ -203,21 +203,14 @@ img {
 
 .cos p,
 .bio-med p,
-.eco p {
-  font-size: medium;
-  text-align: left;
-  line-height: 30px;
-  font-family: var(--font);
-  padding: 55.5px 20px;
-}
-
+.eco p,
 .evo p,
 .rob-ai p {
   font-size: medium;
   text-align: left;
   line-height: 30px;
   font-family: var(--font);
-  padding: 70.5px 20px;
+  margin: 30px;
 }
 
 /* Exhibition Spaces */
@@ -540,9 +533,9 @@ footer {
     margin-left: 100px;
   }
 
-  .exh-spaces p {
-    padding-top: 220px;
-    padding-bottom: 20px;
+  .spaces {
+    flex-direction: column;
+    align-items: center;
   }
 
   .cos {
