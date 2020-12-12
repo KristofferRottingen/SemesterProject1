@@ -516,14 +516,7 @@ footer {
 }
 /* Visit us site */
 
-/* media tablet */
-
-@media (min-width: 2000px) {
-  body {
-    margin-left: 350px;
-    margin-right: 350px;
-  }
-}
+/* media queries */
 
 @media (min-width: 1500px) {
   body {
@@ -532,6 +525,12 @@ footer {
   }
 }
 
+@media (min-width: 2000px) {
+  body {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+}
 @media only screen and (min-width: 650px) and (max-width: 1100px) {
   .frontpage {
     height: 70vh;
