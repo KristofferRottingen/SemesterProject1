@@ -664,8 +664,13 @@ footer {
     align-items: center;
   }
 
+  .exp-headings h1,
+  .exp-headings h2 {
+    font-size: 20px;
+  }
+
   .explore-img {
-    height: 25vh;
+    height: 23vh;
   }
 
   .explore-main {
