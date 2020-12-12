@@ -89,7 +89,7 @@ nav a:hover {
 /* frontpage */
 .frontpage {
   background-image: url("../images/background-img.jpg");
-  height: 85vh;
+  height: 80vh;
   padding: 0;
   justify-content: center;
   background-size: cover;
@@ -145,7 +145,7 @@ h2 {
   padding-bottom: 50px;
 }
 
-.exh-spaces h1 {
+.exh-spaces h2 {
   padding-top: 40px;
   font-family: var(--font);
   text-align: center;
@@ -373,7 +373,8 @@ footer {
   background-position: center center;
 }
 
-.exp-headings h1 {
+.exp-headings h1,
+.exp-headings h2 {
   margin-top: 0px;
   padding: 20px 0px;
   color: #ffffff;
@@ -516,6 +517,13 @@ footer {
 /* Visit us site */
 
 /* media tablet */
+
+@media (min-width: 2000px) {
+  body {
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+}
 
 @media (min-width: 1500px) {
   body {
