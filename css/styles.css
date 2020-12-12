@@ -89,7 +89,7 @@ nav a:hover {
 /* frontpage */
 .frontpage {
   background-image: url("../images/background-img.jpg");
-  height: 80vh;
+  height: 75vh;
   padding: 0;
   justify-content: center;
   background-size: cover;
@@ -365,7 +365,7 @@ footer {
 
 .explore-img {
   background-image: url("../images/Explore.jpg");
-  height: 80vh;
+  height: 60vh;
   padding: 0;
   justify-content: center;
   background-size: cover;
@@ -412,7 +412,7 @@ footer {
 /* Get Involved site */
 .get-involved-img {
   background-image: url("../images/get-involved.jpg");
-  height: 80vh;
+  height: 60vh;
   padding: 0;
   justify-content: center;
   background-size: cover;
@@ -436,7 +436,7 @@ footer {
 /* Visit us site */
 .visit-img {
   background-image: url("../images/visit-us.jpg");
-  height: 80vh;
+  height: 60vh;
   padding: 0;
   justify-content: center;
   background-size: cover;
