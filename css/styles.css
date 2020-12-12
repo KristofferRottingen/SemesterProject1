@@ -575,8 +575,9 @@ footer {
     margin: 0px 100px;
   }
 
-  .explore-main h1 {
-    font-size: 1.05rem;
+  .explore-main h1,
+  .exp-headings h2 {
+    font-size: 1.5rem;
   }
 
   .text-info {
