@@ -153,8 +153,8 @@ h2 {
 }
 
 .spaces {
-  margin: auto;
-  padding: auto;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -249,9 +249,14 @@ h1 {
   font-family: var(--font);
   max-width: 350px;
   margin: 10px;
+  color: #000000;
+  box-shadow: 0px 0px 5px 1px #000000;
+  transition: all 0.3s ease;
+}
 
-  -webkit-box-shadow: 0px 0px 10px 2px #000000;
-  box-shadow: 0px 0px 10px 2px #000000;
+.item:hover {
+  box-shadow: 0px 0px 10px 4px #000000;
+  transition: all 0.3s ease;
 }
 
 .item img {
@@ -534,6 +539,35 @@ footer {
   background-position: center center;
 }
 /* Detailspage------> */
+
+/* changes------> */
+.news a,
+.spaces a {
+  text-decoration: none;
+}
+
+.details_image {
+  margin-bottom: -6px;
+}
+
+.cos,
+.evo,
+.bio-med,
+.rob-ai,
+.eco {
+  box-shadow: 0px 0px 5px 0px #000000;
+  transition: all 0.3s ease;
+}
+
+.cos:hover,
+.evo:hover,
+.bio-med:hover,
+.rob-ai:hover,
+.eco:hover {
+  box-shadow: 0px 0px 10px 4px #000000;
+  transition: all 0.3s ease;
+}
+/* changes------> */
 
 /* media queries */
 
