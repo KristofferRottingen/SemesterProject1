@@ -34,7 +34,7 @@ header {
 .logo {
   padding-top: 10px;
   padding-left: 40px;
-  max-width: 90px;
+  max-width: 130px;
 }
 
 nav,
@@ -42,7 +42,7 @@ nav,
   display: none;
 }
 nav ul {
-  padding: 0px;
+  padding-left: 15px;
 }
 
 nav li {
@@ -515,6 +515,25 @@ footer {
   line-height: 23px;
 }
 /* Visit us site */
+
+/* Detailspage------> */
+.details_text {
+  padding: 10px 0px;
+  margin: 0px 40px;
+  font-family: var(--font);
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.details_image img {
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* Detailspage------> */
 
 /* media queries */
 
